@@ -1,4 +1,4 @@
-# steamdb-scraper-sentiment
+# steamdb-scraper-sentiment-analysis-VAR
 
 This study explores integrating sentiment analysis into churn forecasting for online multiplayer
 games, building on the research of Rahman et al. (2024). While traditional churn models rely
