@@ -10,7 +10,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # 配置参数
-API_KEY = 'EA047515B7DAE56F54F598043A6F1BC0'
+API_KEY = 'xxxxxxx' # steamdb API key
 APP_ID = '730'  # cs2 ID
 START_DATE = '2024-11-01'
 END_DATE = '2024-12-11'  # 目标日期范围
@@ -252,3 +252,4 @@ else:
     df.to_csv(OUTPUT_CSV, index=False, encoding='utf-8-sig')
 
     print(f"完成！总共处理了 {total_reviews_processed} 条评论。")
+
